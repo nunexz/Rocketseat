@@ -1,0 +1,35 @@
+/* Crie um programa pra calcular o IMC e nível de obesidade de uma pessoa */
+
+/* const nome = 'Matheus'
+const peso = 101
+const altura = 1.71
+
+const imc = peso / (altura * altura);
+
+if (imc >= 30){
+    console.log(`Matheus seu IMC é ${imc} de massa corporal, e está acima do peso;`)
+}else{
+    console.log('Matheus, você está no peso ideal')
+} */
+
+
+/*O tempo de contribuição mínimo para homens é de 35 anos e, para mulheres, 30 anos;
+Utilizando a regra 85-95, a soma da idade com o tempo de contribuição do homem precisa ser de no mínimo 95 anos, enquanto a mulher precisa ter no mínimo 85 anos na soma;
+Com base nas regras acima imprima na tela as mensagens:
+
+SE a pessoa estiver aposentada: Silvana, você pode se aposentar!;
+SE a pessoa NÃO estiver aposentada: Silvana, você ainda não pode se aposentar!;*/
+
+
+const nome = "Silvana";
+const sexo = "F";
+const idade = 48;
+const contribuicao = 23;
+
+const tempoContribuicao = idade+contribuicao;
+if (tempoContribuicao >= 85){
+    console.log(`${nome}, seu tempo de contribuição somado com sua idade é de ${tempoContribuicao} anos, você pode receber o Auxílio`)
+}else{
+    console.log(`${nome}, seu tempo de contribuição somado com sua idade é de ${tempoContribuicao} anos, você não pode receber o Auxílio`)
+}
+
